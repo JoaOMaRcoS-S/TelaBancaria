@@ -9,5 +9,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
+  name = "Angular 20";
   protected readonly title = signal('aprendendo-w3c');
 }
